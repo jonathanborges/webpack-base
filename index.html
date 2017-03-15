@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Crop Thumb</title>
+  <link rel="stylesheet" href="dist/main.css">
+</head>
+<body>
+  <div class="crop-thumb">
+    <div class="preview">
+      <label class="upload-label"><input type="file" class="upload"></label>
+    </div>
+    <input type="range" class="zoom">
+    <button class="crop">Crop</button>
+  </div>
+
+  <script src="dist/bundle.js"></script>
+  <script>
+    new CropThumb(335, 223);
+  </script>
+</body>
+</html>
